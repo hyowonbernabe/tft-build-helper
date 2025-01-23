@@ -26,8 +26,11 @@ def find_compositions(min_cost, max_cost, max_num_champions, min_traits, current
 
     max_remaining_champions = max_num_champions - len(required_champions)
 
+    print("Minimum cost of champions: ", min_cost)
+    print("Maximum cost of champions: ", max_cost)
     print("Amount of champions: ", len(filtered_champions))
-    print("Max number of champions: ", max_remaining_champions)
+    print("Maximum number of champions: ", max_remaining_champions)
+    print("Minimum number of traits: ", min_traits)
     print("Complexity: ", math.comb(len(filtered_champions), max_remaining_champions))
     
     valid_compositions = []
@@ -52,8 +55,8 @@ def find_compositions(min_cost, max_cost, max_num_champions, min_traits, current
 
 min_cost = 1
 max_cost = 3
-max_num_champions = 6
-min_traits = 7
+max_num_champions = 7
+min_traits = 8
 current_champions = []
 emblem_traits = []
 

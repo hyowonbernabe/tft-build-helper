@@ -85,8 +85,8 @@
     {"name": "Quickstriker", "levels": [2, 3, 4]},
     {"name": "Sentinel", "levels": [2, 4, 6]},
     {"name": "Sniper", "levels": [2, 4, 6]},
-    {"name": "Sorcerer", "levels": [2, 4, 6, 8]},
-    {"name": "Visionary", "levels": [2, 4, 6, 8]},
+    {"name": "Sorcerer", "levels": [2, 4, 6]},
+    {"name": "Visionary", "levels": [2, 4, 6]},
     {"name": "Watcher", "levels": [2, 4, 6]}
   ]
 }
